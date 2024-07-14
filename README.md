@@ -1,0 +1,1 @@
+overthewire bandit\n Прохождение
