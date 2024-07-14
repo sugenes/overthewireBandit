@@ -1,0 +1,15 @@
+Level0: password - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If #Подключение по ssh
+Level1: password - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx;
+Level2: password - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx 
+Level3: password - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+Level4: password - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+Level5: passowrd - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG; Поиск файла find, размер -size, тип - type
+Level6: passwod - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj; Поиск файла по всей системе,  -user, -group, -size
+Level7: password - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc; grep 
+Level8: password - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM; cat | sort | uniq -u
+Level9: password - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey; strings | grep
+Level10: password - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr; base64 -d
+Level11: password - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4; cat | tr 'A-Za-z' 'N-ZA-Mm-za-m'
+Level12: password - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn; xxd -r, затем многократное разархивирование соответствующим архиватором, но перед разархивированием необходимо изменить расширение на tar/bz2/gz, чтобы программа могла работать с файлами, иначе выдаст ошибку
+Level13: password - MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS; Пароль нельзя было прочитать на этом уровне. Вместо этого нужно было скачать личный ключ ssh к себе, сменить его разрешение на 700 и с помощью ключа -i передать его на следующий уровень.
+Level14: password - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo; nc -N localhost 30000, скопировать пароль для текущего уровня, в ответ получаем новый пароль
